@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 :root{
-    --verdeOliva: #556B2F;
+    --verdeOliva: #ebfab4;
     --azulMarinho: #000080;
     --cinzaMetalico: #808080;
     --begeDeserto: #F5F5DC;
@@ -13,18 +13,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: var(--begeDeserto);
+    color: var(rgb(24, 23, 23));
+   
+}
+
+header h4{
+    position: fixed;
+    padding: 35px;
+    color: #231E1F;
+    font-size: x-large;
+
+}
+
+body{
     background-color: var(--azulMarinho);
 }
 
-header{
-    position: fixed;
-    padding: 35px;
-
-}
-
 main{
+    background-image: url(imagens/banner-fundo\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     overflow: hidden;
+
 }
 
 #container-geral{
@@ -36,13 +47,43 @@ main{
     padding-bottom: 50px;
 }
 
+#container-login{
+    width: 430px;
+    background-color: var(--begeDeserto);
+    border: 1px solid;
+    padding-bottom: 0;
+}
+
 #h1{
-    margin-bottom: 15px;
+    margin: 20px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 45px;
+}
+
+p{
+    margin: 10px 20px;
 }
 
 #botao-inscrever{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 20px;
-    width: 150px;
+    width: 100%;
+    padding: 25px;
+    margin: 20px 10px 0px 0px;
     background-color: var(--verdeOliva);
-    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0.9px solid;
+    text-decoration: none;
 }
+
+#legenda{
+    font-size: 20px;
+
+}
+
+

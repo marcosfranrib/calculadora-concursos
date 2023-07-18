@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#container-geral{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cadastro,#login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 350px;
+    width: 250px;
+    background-color: #8a7878;
+    color: white;
+    
+}
+
+#cadastro{
+  
+  
+}
+
+#login{    
+    background-color: #437070;
+
+}
+
+
+#titulo-login,#titulo-cadastro{
+    margin: 40px 35px 10px 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#titulo-cadastro{
+    margin: 27px;
+}
+
+.paragrafo{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: smaller;
+}
+
+input{
+    display: block;
+    padding: 6px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+label{
+    display: block;
+    margin-bottom: 6px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.espacamento-label{
+  margin-top: 15px;
+
+}
+
+input::placeholder{
+   opacity: 0.5;
+}
+
+input[type=button]{
+    
+    margin: 30px auto;
+    width: 80px;
+
+}
+
+hr{
+    margin-top: 20px;
+    border-color: #faf7f7;
+    width: 220px;
+
+}
+
+
