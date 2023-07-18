@@ -14,25 +14,33 @@
     align-items: center;
 }
 
+#container-cadastro input{
+   width: 320px;
+}
+
+#container-cadastro input[type=button]{
+    width: 120px;
+    margin: 35px 0px;
+ }
+
 #cadastro,#login{
     display: flex;
     align-items: center;
     flex-direction: column;
     height: 350px;
-    width: 250px;
     background-color: #8a7878;
     color: white;
     
 }
 
 #cadastro{
-  
+  width: 420px;
   
 }
 
 #login{    
     background-color: #437070;
-
+    width: 300px;
 }
 
 
