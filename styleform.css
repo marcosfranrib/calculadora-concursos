@@ -20,8 +20,8 @@
 
 #container-cadastro input[type=button]{
     width: 120px;
-    margin: 35px 0px;
- }
+
+}
 
 #cadastro,#login{
     display: flex;
